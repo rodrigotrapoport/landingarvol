@@ -341,61 +341,68 @@
 		</section>
 		<section class="ftco-section ftco-no-pb">
 			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+					<div class="col-md-12 text-center heading-section  ftco-animate">
+                          <h2 class="mb-4 colorTextoTres"><span>Investment</span> Calculator</h2>
+                          <p>Obtain the estimated values ​​that you can obtain from your investment</p>
+                    </div>
+				</div> 
     		    <div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section  ftco-animate">
-                   <h2 class="mb-4 colorTextoTres"><span>Investment</span> Calculator</h2>
-                   <p>Obtain the estimated values ​​that you can obtain from your investment</p>
-                 </div>
+					
+                    <div class="col-md-4 col-sm-1">
+					   <div class="text-center heading-section  ftco-animate">
+                        <h4><span>Investment</span> in USD</h4>
+				        <input id="myInvestment" type="number" onkeyUp="calcular();">
+                        <p>Enter the value you would like to invest in US dollars</p>
+                      </div>
+					</div>
+					<div class="col-md-4 col-sm-1">
+						<div class="text-center heading-section  ftco-animate">
+                           <h4>Arvol Token Price</h4>
+				           <strong>5.001</strong>
+                           <p>The actual price in US dollars</p>
+                        </div>
+					</div>
+					<div class="col-md-4 col-sm-1">
+						<div class="text-center heading-section  ftco-animate">
+                           <h4>Total amout in Arvol</h4>
+				           <strong id="total_amount_arvol"></strong>
+                           <p>How many Arvol you get with your investment</p>
+                        </div>
+					</div>
 				</div> 
+				
 				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section  ftco-animate">
-                   <h4><span>Investment</span> in USD</h4>
-				   <input id="myInvestment" type="number" onkeyUp="calcular();">
-                   <p>Enter the value you would like to invest in US dollars</p>
-                 </div>
+					<div class="col-md-3 col-sm-1">
+						<div class="text-center heading-section heading-section-black ftco-animate">
+                          <h4>Expected carbon tons captures annual</h4>
+				          <strong id="carbon_capture"></strong>
+                          <p>How many carbon tons captures annual you get with your investment</p>
+                        </div>
+					</div>
+					<div class="col-md-3 col-sm-1">
+						<div class="text-center heading-section heading-section-black ftco-animate">
+                          <h4>Expected carbon credits at peak annual</h4>
+				          <strong id="carbon_credits_annual"></strong>
+                          <p>How many carbon tons captures annual you get with your investment</p>
+                        </div>						
+					</div>
+					<div class="col-md-3 col-sm-1">
+                        <div class="text-center heading-section heading-section-black ftco-animate">
+                          <h4>Expected returns harvest at peak annual</h4>
+				          <strong id="returns_harvest_annual"></strong>
+                          <p>How many returns harvest at peak annual you get with your investment</p>
+                        </div>
+					</div>
+					<div class="col-md-3 col-sm-1">
+						<div class="text-center heading-section heading-section-black ftco-animate">
+                          <h4>Expected land appreciation annual</h4>
+				          <strong id="land_appreciation_annual"></strong>
+                          <p>How many land appreciation annual you get with your investment</p>
+                        </div>
+					</div>
 				</div> 
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section  ftco-animate">
-                   <h4>Arvol Token Price</h4>
-				   <p>1.8299</p>
-                   <p>The actual price in US dollars</p>
-                 </div>
-				</div> 
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section heading-section-black ftco-animate">
-                   <h4>Total amout in Arvol</h4>
-				   <p id="total_amount_arvol"></p>
-                   <p>How many Arvol you get with your investment</p>
-                 </div>
-				</div>  
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section heading-section-black ftco-animate">
-                   <h4>Expected carbon tons captures annual</h4>
-				   <p id="carbon_capture"></p>
-                   <p>How many carbon tons captures annual you get with your investment</p>
-                 </div>
-				</div>
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section heading-section-black ftco-animate">
-                   <h4>Expected carbon credits at peak annual</h4>
-				   <p id="carbon_credits_annual"></p>
-                   <p>How many carbon tons captures annual you get with your investment</p>
-                 </div>
-				</div>
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section heading-section-black ftco-animate">
-                   <h4>Expected returns harvest at peak annual</h4>
-				   <p id="returns_harvest_annual"></p>
-                   <p>How many returns harvest at peak annual you get with your investment</p>
-                 </div>
-				</div>
-				<div class="row justify-content-center mb-5 pb-2">
-                 <div class="col-md-12 text-center heading-section heading-section-black ftco-animate">
-                   <h4>Expected land appreciation annual</h4>
-				   <p id="land_appreciation_annual"></p>
-                   <p>How many land appreciation annual you get with your investment</p>
-                 </div>
-				</div>
+				
         	</div>
 		</section>
 	

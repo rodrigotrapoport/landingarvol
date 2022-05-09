@@ -1,7 +1,7 @@
 
 
     function calcular(){
-        var av_price = 1.8299;
+        var av_price = 5.001;
         var usd = document.getElementById("myInvestment").value;
         var total_av = usd/av_price;
         var carbon_anual = usd*0.0122;
