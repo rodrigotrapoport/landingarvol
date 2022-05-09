@@ -1,0 +1,67 @@
+.colorUno {
+    background-color: rgb(98, 166, 179);
+}
+.colorDos {
+     background-color: rgb(106, 184, 170);
+}
+.colorTres {
+     background-color: rgb(92, 169, 140);
+}
+.colorCuatro {
+     background-color: rgb(108, 173, 127);
+}
+.colorCinco {
+     background-color: rgb(129, 190, 96);
+}
+.colorSeis {
+     background-color: rgb(217, 221, 79);
+}
+.colorSiete {
+     background-color: rgb(232, 149, 179);
+}
+.colorTextoUno {
+    color: rgb(98, 166, 179);
+}
+.colorTextoDos {
+     color: rgb(106, 184, 170);
+}
+.colorTextoTres {
+     color: rgb(92, 169, 140);
+}
+.colorTextoCuatro {
+     color: rgb(108, 173, 127);
+}
+.colorTextoCinco {
+     color: rgb(129, 190, 96);
+}
+.colorTextoSeis {
+     color: rgb(217, 221, 79);
+}
+.colorTextoSiete {
+     color: rgb(232, 149, 179);
+}
+.colorTextoBlanco{
+    color: aliceblue;
+}
+.avellana{
+    /* background-color: rgba(255, 2, 2, 0.853); */
+    background-image: url(../images/avellana.jpg);
+    /* opacity: 0.1; */
+    /* height: 500px;
+    max-width: 100%; */
+  }
+
+.banderas{
+    position:relative;
+    z-index: 100;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin-left: 0;
+
+    text-align: center;
+    /* color: white; */
+    /* border: 7px solid #e9ecef; */
+    /* border-radius: 100%; */
+    /* background-color: #ffc800; */
+}

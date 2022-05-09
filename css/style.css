@@ -8478,16 +8478,16 @@ h1, h2, h3, h4, h5,
   background: #1eaaf1; }
 
 .bg-secondary {
-  background: #fda638 !important; }
+  background: rgb(129, 190, 96) !important; }
 
 .bg-tertiary {
-  background: #8cc152; }
+  background: rgb(98, 166, 179); }
 
 .bg-quarternary {
-  background: #f1453d; }
+  background: rgb(92, 169, 140) }
 
 .bg-fifth {
-  background: #5d50c6; }
+  background: rgb(106, 184, 170);}
 
 .ftc-no-pb {
   padding-bottom: 0 !important; }
@@ -8539,11 +8539,11 @@ h1, h2, h3, h4, h5,
         border-color: #fff;
         color: #1eaaf1; }
   .btn.btn-secondary {
-    background: #fda638;
-    border: 1px solid #fda638;
+    background: rgb(129, 190, 96);
+    border: 1px solid rgb(129, 190, 96);
     color: #fff; }
     .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
-      border: 1px solid #fda638;
+      border: 1px solid rgb(129, 190, 96);
       color: #fff; }
   .btn.btn-tertiary {
     background: #8cc152;
@@ -8671,7 +8671,7 @@ h1, h2, h3, h4, h5,
     .course .text .subheading {
       color: #000000; }
       .course .text .subheading span {
-        color: #fda638; }
+        color: rgb(129, 190, 96); }
     .course .text h3 {
       font-weight: 500;
       font-size: 24px; }
@@ -8739,7 +8739,7 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .staff .ftco-social li a {
-      color: #fda638; }
+      color: rgb(129, 190, 96); }
   .staff:hover .ftco-social, .staff:focus .ftco-social {
     opacity: 1;
     top: -40px; }
@@ -8943,7 +8943,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #1eaaf1 !important; }
+  background: rgb(129, 190, 96) !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -8977,7 +8977,7 @@ textarea.form-control {
     .ftco-footer .ftco-footer-widget .logo {
       color: #1eaaf1; }
       .ftco-footer .ftco-footer-widget .logo span {
-        color: #fda638; }
+        color: rgb(129, 190, 96); }
     .ftco-footer .ftco-footer-widget ul li a span {
       color: #fff; }
     .ftco-footer .ftco-footer-widget .btn-primary {
@@ -9032,7 +9032,7 @@ textarea.form-control {
     .ftco-footer .subscribe-form .form-group .submit {
       color: #fff !important;
       font-size: 16px;
-      background: #5d50c6 !important;
+      background: rgb(106, 184, 170) !important;
       border: none !important;
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
@@ -9144,9 +9144,8 @@ textarea.form-control {
 .heading-section h2 {
   font-size: 44px;
   font-weight: 600;
-  color: #fda638; }
-  .heading-section h2 span {
-    color: #5d50c6; }
+  }
+
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
@@ -9160,9 +9159,6 @@ textarea.form-control {
 
 .heading-section.heading-section-white p {
   color: rgba(255, 255, 255, 0.9); }
-
-.heading-section.heading-section-black h2 {
-  color: #000000; }
 
 .hotel-img,
 .img,
@@ -9317,7 +9313,8 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: 0;
-    background: #fda638; }
+    background: rgb(129, 190, 96);
+   }
 
 .ftco-counter {
   overflow-x: hidden;
@@ -9337,12 +9334,11 @@ textarea.form-control {
   .ftco-counter .text strong.number {
     font-weight: 500;
     font-size: 50px;
-    color: #1eaaf1;
     display: block; }
   .ftco-counter .text span {
     display: block;
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.8); }
+}
   @media (max-width: 767.98px) {
     .ftco-counter .counter-wrap {
       margin-bottom: 20px; } }
