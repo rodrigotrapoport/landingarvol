@@ -49,7 +49,19 @@
     /* opacity: 0.1; */
     /* height: 500px;
     max-width: 100%; */
-  }
+}
+.logoPrincipal{
+     width: 3.5em;
+     margin-right: 0px;
+}
+.logosPaises{
+     padding: 0px;
+}
+.textoPaises{
+     display: flex;
+     vertical-align: middle;
+     margin: auto;
+}
 
 .banderas{
     position:relative;
@@ -64,4 +76,12 @@
     /* border: 7px solid #e9ecef; */
     /* border-radius: 100%; */
     /* background-color: #ffc800; */
+}
+.barraNavegacion{
+     margin-left: 1.5em; 
+     /* margin-right: 1.5em;  */
+}
+.margenIzquierda{
+     margin-right: 0em; 
+     padding-right: 0px;
 }
