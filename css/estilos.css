@@ -46,7 +46,7 @@
 .avellana{
     /* background-color: rgba(255, 2, 2, 0.853); */
     background-image: url(../images/avellana.jpg);
-    /* opacity: 0.1; */
+    
     /* height: 500px;
     max-width: 100%; */
 }
@@ -84,4 +84,7 @@
 .margenIzquierda{
      margin-right: 0em; 
      padding-right: 0px;
+}
+section div.block-18{
+     min-width: 25rem;
 }
