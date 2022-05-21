@@ -19,10 +19,10 @@
 
 
          //agrega los resultados al DOM
-        total_amount_arvol.innerHTML = total_av;
-        carbon_capture.innerHTML =  carbon_anual;
-        carbon_credits_annual.innerHTML = carbon_credits_anual;
-        returns_harvest_annual.innerHTML = returns_harvest;
-        land_appreciation_annual.innerHTML = land_appreciation; 
+        total_amount_arvol.innerHTML = Number(total_av.toFixed(2));
+        carbon_capture.innerHTML =  Number(carbon_anual.toFixed(2));
+        carbon_credits_annual.innerHTML = Number(carbon_credits_anual.toFixed(2));
+        returns_harvest_annual.innerHTML = Number(returns_harvest.toFixed(2));
+        land_appreciation_annual.innerHTML = Number(land_appreciation.toFixed(2)); 
     
     }
