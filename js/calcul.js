@@ -35,5 +35,5 @@
         inv_50.innerHTML = in_5.toFixed(2);
         inv_w.innerHTML = in_2.toFixed(2);
         inv_c.innerHTML = in_2.toFixed(2);
-        inv_o.innerHTML = in_5.toFixed(2);
+        inv_o.innerHTML = in_1.toFixed(2);
     }
