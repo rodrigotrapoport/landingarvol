@@ -18,7 +18,7 @@
     $mensaje .= "Su servicio de interes es:". $subject . " \r\n";
     $mensaje .= "Enviado el " . date('d/m/Y', time());
     
-    $para = 'info@jugarestimulacionyjuegoteca.com';
+    $para = 'hi@arvol.io';
     $asunto = 'CONSULTA WEB';
     
     mail($para, $asunto, utf8_decode($mensaje), $header);
