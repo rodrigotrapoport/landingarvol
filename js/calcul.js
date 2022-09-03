@@ -27,13 +27,22 @@
 
 
          //agrega los resultados al DOM
-        total_amount_arvol.innerHTML = total_av.toFixed(2);
-        carbon_capture.innerHTML =  carbon_anual.toFixed(2);
-        carbon_credits_annual.innerHTML = carbon_credits_anual.toFixed(2);
-        returns_harvest_annual.innerHTML = returns_harvest.toFixed(2);
-        land_appreciation_annual.innerHTML = land_appreciation.toFixed(2); 
-        inv_50.innerHTML = in_5.toFixed(2);
-        inv_w.innerHTML = in_2.toFixed(2);
-        inv_c.innerHTML = in_2.toFixed(2);
-        inv_o.innerHTML = in_1.toFixed(2);
+        var n1 = parseFloat(total_av.toFixed(2));
+        total_amount_arvol.innerHTML = n1.toLocaleString("en-IN");
+        var n2 = parseFloat(carbon_anual.toFixed(2));
+        carbon_capture.innerHTML =  n2.toLocaleString("en-IN");
+        var n3 = parseFloat(carbon_credits_anual.toFixed(2));
+        carbon_credits_annual.innerHTML = n3.toLocaleString("en-IN");
+        var n4 = parseFloat(returns_harvest.toFixed(2));
+        returns_harvest_annual.innerHTML = n4.toLocaleString("en-IN");
+        var n5 = parseFloat(land_appreciation.toFixed(2));
+        land_appreciation_annual.innerHTML = n5.toLocaleString("en-IN");
+        var n6 =  parseFloat(in_5.toFixed(2));
+        inv_50.innerHTML = n6.toLocaleString("en-IN");
+        var n7 = parseFloat(in_2.toFixed(2));
+        inv_w.innerHTML = n7.toLocaleString("en-IN");
+        var n8 = parseFloat(in_2.toFixed(2));
+        inv_c.innerHTML = n8.toLocaleString("en-IN");
+        var n9 = parseFloat(in_1.toFixed(2));
+        inv_o.innerHTML = n9.toLocaleString("en-IN");
     }
