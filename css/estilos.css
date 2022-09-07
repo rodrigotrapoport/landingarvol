@@ -136,3 +136,11 @@ url(../images/avellana.jpg);
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+.partner {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.partner img {
+
+  height: 14rem;
+}
