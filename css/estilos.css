@@ -313,7 +313,14 @@ url(../images/avellana.jpg);
   max-width: 100%;
   height: auto;
 }
-/* .image-roadmap {
-  max-height: 80%;
-  max-width: 80%;
-} */
+.road-map-icons{
+  padding-top: 12%;
+  max-width: 70%;
+  height: auto;
+  border-radius: 0%;
+}
+.road-map-icons-dao{
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+}
