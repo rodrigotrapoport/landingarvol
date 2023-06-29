@@ -4,9 +4,10 @@
         const av_price = 5;
         const usd = document.getElementById("myInvestment").value;
         const total_av = usd/av_price;
-        const carbon_anual = usd*0.0122;
+        const carbon_anual = usd*0.012;
         const carbon_credits_anual = carbon_anual*11;
-        const returns_harvest = usd*0.2;
+        const returns_harvest1 = usd*0.2;
+        console.log(returns_harvest1); 
         const land_appreciation = usd*0.09;
         const in_5 = usd*0.5;
         const in_2 = usd*0.2;
@@ -31,11 +32,10 @@
         total_amount_arvol.innerHTML = n1.toLocaleString("en-IN");
         let n2 = parseFloat(carbon_anual.toFixed(2));
         carbon_capture.innerHTML =  n2.toLocaleString("en-IN");
-
         let n3 = parseFloat(carbon_credits_anual.toFixed(2));
         carbon_credits_annual.innerHTML = n3.toLocaleString("en-IN");
-        let n4 = parseFloat(returns_harvest.toFixed(2));
-        returns_harvest_annual.innerHTML = n4.toLocaleString("en-IN");
+        let n4 = parseFloat(returns_harvest1.toFixed(2)); 
+        returns_harvest_annual.innerHTML = n4;
         let n5 = parseFloat(land_appreciation.toFixed(2));
         land_appreciation_annual.innerHTML = n5.toLocaleString("en-IN");
         let n6 =  parseFloat(in_5.toFixed(2));
